@@ -21,4 +21,4 @@ cv2.imshow("Blue", color)
 print(color[0,0,:])
 
 cv2.waitKey(0)
-cv2.destroyWindow
+cv2.destroyAllWindows()
