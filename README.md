@@ -14,6 +14,10 @@ color.cvtColor() => Convert the color channels (RGB->HSV etc)
 # Operations
 .split() => Split the clor data into different channels
 .merge() => To merge the color data channels
+.GausianBlur(image, (x,y) ,0) => Gausian Blur
+.dilate(image,kernel matrix, iterations) => Removing the isolated black pixels
+.erode(image,kernel matrix, iterations) => Removing the isolated white pixels
+
 
 # Closing operations
 .waitKey(0) =>
